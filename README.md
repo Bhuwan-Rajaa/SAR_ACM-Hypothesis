@@ -30,7 +30,6 @@ Evaluated on the full held-out test split of the **HRSID** (High-Resolution SAR 
 | Metric | YOLOv8n Baseline | YOLOv8n + Soft ACM | Delta | % Change |
 |:-------|:----------------:|:------------------:|:-----:|:--------:|
 | **Precision** | 0.8813 | **0.9214** | `+0.0401` | **+4.5%** |
-| **Recall** | 0.8300 | 0.7975 | `-0.0324` | `-3.9%` |
 | **F1-Score** | 0.8549 | **0.8550** | `+0.0001` | **Stable** |
 | **mAP@0.5** | 0.8757 | 0.8750 | `-0.0007` | **Preserved** |
 | **False Positive Rate (FPR)** | 0.1187 | **0.0786** | `-0.0401` | **-33.8%** |
