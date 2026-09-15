@@ -1,0 +1,63 @@
+{
+  "acm_parameters": {
+    "num_iter": 100,
+    "smoothing": 1,
+    "lambda1": 1.0,
+    "lambda2": 1.5,
+    "bbox_padding": 0.5,
+    "median_filter_size": 3,
+    "min_area_ratio": 0.05,
+    "max_area_ratio": 0.85,
+    "max_compactness": 0.8,
+    "min_elongation": 1.5,
+    "min_contrast_ratio": 3.0
+  },
+  "baseline_metrics": {
+    "precision": 0.8812981889904967,
+    "recall": 0.8299560959135427,
+    "f1": 0.8548569440820941,
+    "mAP50": 0.8756575941209926,
+    "false_positive_rate": 0.11870181100950332,
+    "total_tp": 4915,
+    "total_fp": 662,
+    "total_fn": 1007,
+    "total_gt": 5922,
+    "total_detections": 5577,
+    "mAP50_yolo": 0.8236560988682657,
+    "mAP50_95_yolo": 0.5938487629710532
+  },
+  "acm_metrics": {
+    "precision": 0.9213811939133828,
+    "recall": 0.7975346166835529,
+    "f1": 0.8549963794351918,
+    "mAP50": 0.8750499107716961,
+    "false_positive_rate": 0.07861880608661724,
+    "total_tp": 4723,
+    "total_fp": 403,
+    "total_fn": 1199,
+    "total_gt": 5922,
+    "total_detections": 5126
+  },
+  "filter_analysis": {
+    "total_baseline_detections": 8401,
+    "total_acm_detections": 8376,
+    "total_discarded": 451,
+    "discard_rate": 0.053684085227949055,
+    "discard_reasons": {
+      "acm_no_valid_segment": 14,
+      "near_empty_segment": 11
+    },
+    "avg_acm_time_ms": 475.4943901178788,
+    "tp_discarded": 8,
+    "fp_discarded": 17,
+    "fp_discard_precision": 0.037694013303769404
+  },
+  "improvement": {
+    "precision_delta": 0.04008300492288608,
+    "recall_delta": -0.032421479229989836,
+    "f1_delta": 0.0001394353530976833,
+    "mAP50_delta": -0.0006076833492965061,
+    "fpr_delta": -0.04008300492288608,
+    "fpr_reduction_pct": 33.76781245542835
+  }
+}
